@@ -30,7 +30,7 @@
         android:layout_marginBottom="105dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:onClick="click" />
+        android:onClick="newSimulation" />
 
 
 </RelativeLayout>

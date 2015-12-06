@@ -3,4 +3,6 @@
     <string name="action_settings">Settings</string>
     <string name="NewSimulation">New Simulation</string>
     <string name="simulator">Simulator</string>
+    <string name="userlist">User List:</string>
+    <string name="documentlist">Document List:</string>
 </resources>
