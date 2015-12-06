@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SYSC3110Project</string>
+    <string name="action_settings">Settings</string>
+    <string name="NewSimulation">New Simulation</string>
+    <string name="simulator">Simulator</string>
+</resources>
