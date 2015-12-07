@@ -19,6 +19,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".UserList_Interface"/>
+        <activity android:name=".DocumentList_Interface"/>
+        <activity android:name=".Index"/>
+        <activity android:name=".UserInformation"/>
+
     </application>
 
 </manifest>

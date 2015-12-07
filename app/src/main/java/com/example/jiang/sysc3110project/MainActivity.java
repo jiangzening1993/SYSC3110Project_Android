@@ -13,11 +13,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.io.Serializable;
 import java.util.Random;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
 
     TextView testView;
+    private Controller controller;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,11 +61,12 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-
     public void newSimulation(View v){
+        controller = new Controller();
         String button;
         button = ((Button) v).getText().toString();
-        Intent intent = new Intent(this, UserList_Interface.class);
+        Intent intent = new Intent(this, Index.class);
+        intent.putExtra("controller", controller);
         startActivity(intent);
     }
 }

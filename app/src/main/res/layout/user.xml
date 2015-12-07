@@ -15,10 +15,9 @@
         android:textSize="30sp"
         android:id="@+id/textView" />
 
-    <TextView
+    <ListView
+        android:id="@+id/userlist"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:id="@+id/userlist" />
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

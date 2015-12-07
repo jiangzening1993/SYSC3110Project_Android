@@ -236,6 +236,21 @@ public abstract class User implements Serializable {
 		
 		return str;
 	}
+
+	public String printInformation(){
+		String str = "";
+		String newLine = System.getProperty("line.separator");
+		str += "User Status: " + printUserStatus() +  newLine
+				+ "Taste: " + getTaste() + newLine
+				+ "Liked Documents: " + this.printLikedDocuments() + newLine
+				+ "Payoff: " + payoff + newLine
+				+ "Payoffs: " + payoffs + newLine
+				+ "Following: " + this.printFollows() + newLine
+				+ "Followers: " + this.printFollowers() + newLine;
+				//+ "Strategy: " + strategy.toString();
+
+		return str;
+	}
 	
     /**
      * Prints the status of a user i.e. Producer or consumer
